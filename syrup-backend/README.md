@@ -1,11 +1,11 @@
 # Syrup Backend API
 
-A production-ready backend implementation of the **Syrup API Standard (SAS) v1** with a focus on Nigerian e-commerce merchants. Built with Node.js, TypeScript, Express, PostgreSQL, and Redis.
+A production-ready backend implementation of the **Syrup API Standard (SAS) v1** with **global merchant coverage**. Pre-seeded with top international brands including SHEIN, Amazon, Zara, ASOS, Nike, Adidas, and 20+ more. Built with Node.js, TypeScript, Express, PostgreSQL, and Redis.
 
 ## Features
 
 - ✅ **SAS v1 Compliant** - Fully implements Syrup API Standard v1
-- ✅ **Nigerian Merchants** - Pre-seeded with Jumia, Konga, PayPorte, Slot, and more
+- ✅ **Global Merchants** - Pre-seeded with SHEIN, Amazon, Zara, ASOS, Nike, Adidas, and 20+ international brands
 - ✅ **Smart Scoring** - ML-based coupon scoring using success rate and usage data
 - ✅ **Redis Caching** - Fast response times with intelligent caching
 - ✅ **Rate Limiting** - Production-ready rate limiting with Redis backend
@@ -40,7 +40,10 @@ npm run prisma:generate
 # Run migrations
 npm run prisma:migrate
 
-# Seed with Nigerian merchants
+# Seed with global merchants (RECOMMENDED)
+npm run seed:global
+
+# OR seed with Nigerian local merchants
 npm run seed:nigeria
 ```
 
@@ -84,16 +87,44 @@ POST /syrup/coupons/invalid/:id
 GET /syrup/merchants
 ```
 
-## Nigerian Merchants Included
+## Global Merchants Included (20+ International Brands)
 
-- **Jumia** - jumia.com.ng
-- **Konga** - konga.com
-- **PayPorte** - payporte.com
-- **Slot** - slot.ng
-- **Jiji** - jiji.ng
-- **Dealdey** - dealdey.com
-- **Supermart.ng** - supermart.ng
-- **Mall for Africa** - mallforafrica.com
+### Fashion & Apparel
+- **SHEIN** - shein.com (Fast fashion, #1 choice for Nigerians)
+- **Zara** - zara.com
+- **ASOS** - asos.com
+- **H&M** - hm.com
+- **Nike** - nike.com
+- **Adidas** - adidas.com
+- **Coach** - coach.com
+
+### Marketplace & Retail
+- **Amazon** - amazon.com (2.7B monthly visits)
+- **eBay** - ebay.com
+- **AliExpress** - aliexpress.com
+- **Walmart** - walmart.com
+- **Target** - target.com
+- **Macy's** - macys.com
+
+### Beauty & Cosmetics
+- **Sephora** - sephora.com
+- **Ulta Beauty** - ulta.com
+
+### Electronics & Tech
+- **Apple** - apple.com
+- **Best Buy** - bestbuy.com
+- **Newegg** - newegg.com
+
+### Asian Marketplaces
+- **Taobao** - taobao.com (895M monthly users)
+- **JD.com** - jd.com (#2 in China)
+
+### Specialty Stores
+- **IKEA** - ikea.com
+- **Uber Eats** - ubereats.com
+- **Book Depository** - bookdepository.com
+
+**Total: 23 merchants with 35+ active coupons**
 
 ## Configuration
 

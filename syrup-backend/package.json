@@ -11,7 +11,8 @@
     "prisma:migrate": "prisma migrate dev",
     "prisma:studio": "prisma studio",
     "seed": "tsx scripts/seed.ts",
-    "seed:nigeria": "tsx scripts/seed-nigeria.ts"
+    "seed:nigeria": "tsx scripts/seed-nigeria.ts",
+    "seed:global": "tsx scripts/seed-global.ts"
   },
   "keywords": ["syrup", "coupons", "api", "discount"],
   "author": "Autospend Team",

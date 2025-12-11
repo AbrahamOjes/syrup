@@ -1,0 +1,68 @@
+{
+  "language_name": {
+    "message": "Schwizer dütsch"
+  },
+  "apply": {
+    "message": "Awende"
+  },
+  "ignore": {
+    "message": "Ignoriere"
+  },
+  "syrup_logo": {
+    "message": "Syrup Logo"
+  },
+  "show_extension": {
+    "message": "Erwiterige azeige"
+  },
+  "no_auto_apply_setup": {
+    "message": "Kei automatisches Awende uf dere Site möglich."
+  },
+  "click_apply_to_try_them_all": {
+    "message": "Druck awende zum alli uszprobiere."
+  },
+  "syrup_found_coupons": {
+    "message": "Syrup het Guetschi gfunde!"
+  },
+  "got_it": {
+    "message": "Okay!"
+  },
+  "testing_coupons": {
+    "message": "Testä Guetschi..."
+  },
+  "testing_coupon_current_of_total": {
+    "message": "Testä Guetschi %currentIndex% vo %total%"
+  },
+  "cancel": {
+    "message": "Abbreche"
+  },
+  "use_best": {
+    "message": "Bescht awende"
+  },
+  "testing_cancelled": {
+    "message": "Testä abbroche."
+  },
+  "scan_was_stopped_no_coupons_applied": {
+    "message": "Scan isch abbroche worde. Kei Guetschi brucht."
+  },
+  "we_found_the_best_coupon": {
+    "message": "Mir hind de best Guetschi gfunde!"
+  },
+  "applied_coupon_and_saved_savings_new_total": {
+    "message": "Guetschi agwendet \"%bestCoupon%\" und %savings% gspart. Neues Total: %finalPrice%"
+  },
+  "no_better_price_found": {
+    "message": "Kei bessere pris gfunde."
+  },
+  "all_coupons_tested_but_none_lowered_your_total": {
+    "message": "Alli Guetschi testet, aber keine het dies total veränderet."
+  },
+  "now_trying_best_so_far": {
+    "message": "Jetzt probieri: \"%currentCoupon%\". Best pris bis jetzt: %bestPriceSoFar%"
+  },
+  "best_price_so_far": {
+    "message": "Best pris bis jetzt: $%bestPriceSoFar%"
+  },
+  "Theme": {
+    "message": "Thema"
+  }
+}

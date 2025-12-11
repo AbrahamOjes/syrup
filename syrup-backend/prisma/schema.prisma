@@ -1,0 +1,88 @@
+// Prisma Schema for Syrup Backend
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Merchant model
+model Merchant {
+  id           Int       @id @default(autoincrement())
+  name         String    @unique
+  domains      String[]  // Array of domains
+  logoUrl      String?   @map("logo_url")
+  affiliateEnabled Boolean @default(false) @map("affiliate_enabled")
+  affiliateRate Float?   @map("affiliate_rate")
+  createdAt    DateTime  @default(now()) @map("created_at")
+  updatedAt    DateTime  @updatedAt @map("updated_at")
+
+  coupons      Coupon[]
+
+  @@index([name])
+  @@map("merchants")
+}
+
+// Coupon model
+model Coupon {
+  id                  Int       @id @default(autoincrement())
+  code                String
+  title               String
+  description         String    @db.Text
+  discountType        DiscountType @default(PERCENTAGE) @map("discount_type")
+  discountValue       Float     @map("discount_value")
+  minOrderValue       Float?    @map("min_order_value")
+  maxDiscountAmount   Float?    @map("max_discount_amount")
+  terms               String?   @db.Text
+  expiresAt           DateTime? @map("expires_at")
+
+  merchantId          Int       @map("merchant_id")
+  merchant            Merchant  @relation(fields: [merchantId], references: [id], onDelete: Cascade)
+
+  successCount        Int       @default(0) @map("success_count")
+  failureCount        Int       @default(0) @map("failure_count")
+  usageCount          Int       @default(0) @map("usage_count")
+  score               Float     @default(0)
+  lastVerifiedAt      DateTime? @map("last_verified_at")
+
+  createdAt           DateTime  @default(now()) @map("created_at")
+  updatedAt           DateTime  @updatedAt @map("updated_at")
+
+  reports             CouponReport[]
+
+  @@index([merchantId])
+  @@index([code])
+  @@index([score])
+  @@index([expiresAt])
+  @@map("coupons")
+}
+
+// Coupon discount types
+enum DiscountType {
+  PERCENTAGE
+  FIXED
+  BOGO
+  FREE_SHIPPING
+}
+
+// Coupon validation reports
+model CouponReport {
+  id          Int       @id @default(autoincrement())
+  couponId    Int       @map("coupon_id")
+  coupon      Coupon    @relation(fields: [couponId], references: [id], onDelete: Cascade)
+
+  isValid     Boolean   @map("is_valid")
+  userId      String?   @map("user_id") // Optional user tracking
+  orderValue  Float?    @map("order_value")
+  userAgent   String?   @map("user_agent")
+  ipAddress   String?   @map("ip_address")
+
+  reportedAt  DateTime  @default(now()) @map("reported_at")
+
+  @@index([couponId])
+  @@index([isValid])
+  @@index([reportedAt])
+  @@map("coupon_reports")
+}

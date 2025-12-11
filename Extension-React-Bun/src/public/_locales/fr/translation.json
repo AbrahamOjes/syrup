@@ -1,0 +1,18 @@
+{
+    "languageName": "Français",
+    "Coupons": "Bon de réduction",
+    "Theme": "Thème",
+    "Light": "Clair",
+    "Dark": "Sombre",
+    "System": "Système",
+    "Light theme": "Thème clair",
+    "Dark theme": "Thème sombre",
+    "System theme": "Thème système",
+    "No_coupons_found": "Aucun coupon trouvé",
+    "Domain_invalid": "Domaine non valide",
+    "Browser_domain": "Ce domaine n'est pas pris en charge par l'extension",
+    "Settings": "Paramètres",
+    "Language": "Langue",
+    "no_coupons_found": "Aucun coupon trouvé",
+    "keep_looking": "Je vous tiendrai informé si j'en trouve un!"
+}

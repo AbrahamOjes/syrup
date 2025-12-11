@@ -1,0 +1,68 @@
+{
+  "language_name": {
+    "message": "Español"
+  },
+  "apply": {
+    "message": "Aplicar"
+  },
+  "ignore": {
+    "message": "Ignorar"
+  },
+  "syrup_logo": {
+    "message": "Logo de Syrup"
+  },
+  "show_extension": {
+    "message": "Mostrar extensión"
+  },
+  "no_auto_apply_setup": {
+    "message": "Este sitio no tiene configuración de auto-aplicado."
+  },
+  "click_apply_to_try_them_all": {
+    "message": "Clickea «Aplicar» para probarlos todos."
+  },
+  "syrup_found_coupons": {
+    "message": "¡Syrup encontró cupones!"
+  },
+  "got_it": {
+    "message": "Entendido"
+  },
+  "testing_coupons": {
+    "message": "Probando cupones..."
+  },
+  "testing_coupon_current_of_total": {
+    "message": "Probando el cupón %currentIndex% de %total%"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "use_best": {
+    "message": "Usar el mejor"
+  },
+  "testing_cancelled": {
+    "message": "Prueba cancelada."
+  },
+  "scan_was_stopped_no_coupons_applied": {
+    "message": "Se canceló el escaneo. No se aplicó ningún cupón."
+  },
+  "we_found_the_best_coupon": {
+    "message": "¡Encontramos el mejor cupón!"
+  },
+  "applied_coupon_and_saved_savings_new_total": {
+    "message": "Se aplicó el cupón \"%bestCoupon%\" y se ahorraron %savings%. Total nuevo: %finalPrice%"
+  },
+  "no_better_price_found": {
+    "message": "No se encontró un precio mejor."
+  },
+  "all_coupons_tested_but_none_lowered_your_total": {
+    "message": "Se probaron todos los cupones, pero ninguno redujo el total."
+  },
+  "now_trying_best_so_far": {
+    "message": "Probando el cupón \"%currentCoupon%\". Mejor precio encontrado: %bestPriceSoFar%"
+  },
+  "best_price_so_far": {
+    "message": "Mejor precio encontrado: $%bestPriceSoFar%"
+  },
+  "Theme": {
+    "message": "Tema"
+  }
+}

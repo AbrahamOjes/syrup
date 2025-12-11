@@ -1,0 +1,68 @@
+{
+    "apply": {
+        "message": "使用"
+    },
+    "ignore": {
+        "message": "忽略"
+    },
+    "syrup_logo": {
+        "message": "Syrup 图标"
+    },
+    "show_extension": {
+        "message": "显示扩展"
+    },
+    "no_auto_apply_setup": {
+        "message": "此网站没有设置自动使用优惠。"
+    },
+    "click_apply_to_try_them_all": {
+        "message": "点击使用以尝试所有优惠。"
+    },
+    "syrup_found_coupons": {
+        "message": "Syrup发现了优惠！"
+    },
+    "got_it": {
+        "message": "知道了"
+    },
+    "testing_coupons": {
+        "message": "正在测试优惠..."
+    },
+    "testing_coupon_current_of_total": {
+        "message": "正在测试%total%中的第 %currentIndex%个优惠"
+    },
+    "cancel": {
+        "message": "取消"
+    },
+    "use_best": {
+        "message": "使用最佳"
+    },
+    "testing_cancelled": {
+        "message": "测试取消。"
+    },
+    "scan_was_stopped_no_coupons_applied": {
+        "message": "扫描已停止。 无优惠被应用。"
+    },
+    "we_found_the_best_coupon": {
+        "message": "我们发现了最佳的优惠！"
+    },
+    "applied_coupon_and_saved_savings_new_total": {
+        "message": "已使用优惠\"%bestCoupon%\"，节省了%savings%。 新总和：%finalPrice%"
+    },
+    "no_better_price_found": {
+        "message": "没有找到更好的价格。"
+    },
+    "all_coupons_tested_but_none_lowered_your_total": {
+        "message": "已测试所有的优惠，但没有优惠降低了您的价格。"
+    },
+    "now_trying_best_so_far": {
+        "message": "正在尝试\"%currentCoupon%\"。 目前最佳价格：%bestPriceSoFar%"
+    },
+    "best_price_so_far": {
+        "message": "目前最佳价格：%bestPriceSoFar%元"
+    },
+    "language_name": {
+        "message": "英语"
+    },
+    "Theme": {
+        "message": "主题"
+    }
+}

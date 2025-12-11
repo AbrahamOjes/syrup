@@ -1,0 +1,15 @@
+{
+  "languageName": "English",
+  "Coupons": "Coupons",
+  "Theme": "Theme",
+  "Light": "Light",
+  "Dark": "Dark",
+  "System": "System",
+  "No_coupons_found": "No coupons found",
+  "Domain_invalid": "invalid Domain",
+  "Settings": "Settings",
+  "Language": "Language",
+  "Browser_domain": "This domain is not supported by the extension",
+  "no_coupons_found": "No coupons available",
+  "keep_looking": "I will keep you updated if I find any!"
+}

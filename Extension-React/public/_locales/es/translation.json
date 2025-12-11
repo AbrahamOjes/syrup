@@ -1,0 +1,15 @@
+{
+  "languageName": "Español",
+  "Coupons": "Cupones",
+  "Theme": "Tema",
+  "Light": "Claro",
+  "Dark": "Oscuro",
+  "System": "Sistema",
+  "No_coupons_found": "No se encontraron cupones",
+  "Domain_invalid": "Dominio inválido",
+  "Settings": "Ajustes",
+  "Language": "Idioma",
+  "Browser_domain": "Esta extensión no tiene soporte para este dominio.",
+  "no_coupons_found": "No hay cupones disponibles.",
+  "keep_looking": "¡Si encuentro alguno, te aviso!"
+}

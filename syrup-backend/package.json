@@ -1,0 +1,42 @@
+{
+  "name": "syrup-backend",
+  "version": "1.0.0",
+  "description": "Syrup API Standard (SAS) v1 compliant backend for coupon management",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio",
+    "seed": "tsx scripts/seed.ts",
+    "seed:nigeria": "tsx scripts/seed-nigeria.ts"
+  },
+  "keywords": ["syrup", "coupons", "api", "discount"],
+  "author": "Autospend Team",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "express": "^4.21.1",
+    "cors": "^2.8.5",
+    "helmet": "^8.0.0",
+    "express-rate-limit": "^7.4.1",
+    "rate-limit-redis": "^4.2.0",
+    "redis": "^4.7.0",
+    "dotenv": "^16.4.7",
+    "zod": "^3.23.8",
+    "compression": "^1.7.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.1",
+    "@types/cors": "^2.8.17",
+    "@types/compression": "^1.7.5",
+    "@types/morgan": "^1.9.9",
+    "prisma": "^5.22.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

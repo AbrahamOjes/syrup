@@ -12,7 +12,8 @@
     "prisma:studio": "prisma studio",
     "seed": "tsx scripts/seed.ts",
     "seed:nigeria": "tsx scripts/seed-nigeria.ts",
-    "seed:global": "tsx scripts/seed-global.ts"
+    "seed:global": "tsx scripts/seed-global.ts",
+    "import:couponapi": "tsx scripts/import-couponapi.ts"
   },
   "keywords": ["syrup", "coupons", "api", "discount"],
   "author": "Autospend Team",
@@ -28,7 +29,8 @@
     "dotenv": "^16.4.7",
     "zod": "^3.23.8",
     "compression": "^1.7.5",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "axios": "^1.7.9"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
